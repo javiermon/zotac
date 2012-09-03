@@ -1,0 +1,49 @@
+<sources>
+    <programs>
+        <default pathversion="1"></default>
+    </programs>
+    <video>
+        <default pathversion="1"></default>
+        <source>
+            <name>Movies</name>
+            <path pathversion="1">/home/javier/Movies/</path>
+        </source>
+        <source>
+            <name>TV Shows</name>
+            <path pathversion="1">/home/javier/TV Shows/</path>
+        </source>
+        <source>
+            <name>MyBook Movies</name>
+            <path pathversion="1">/media/MyBook/Media/Movies/</path>
+        </source>
+        <source>
+            <name>MyBook TV Shows</name>
+            <path pathversion="1">/media/MyBook/Media/TV Shows/</path>
+        </source>
+    </video>
+    <music>
+        <default pathversion="1">MyBook Music</default>
+        <source>
+            <name>Music</name>
+            <path pathversion="1">/home/javier/Music/</path>
+        </source>
+        <source>
+            <name>MyBook Music</name>
+            <path pathversion="1">/media/MyBook/Media/Music/</path>
+        </source>
+    </music>
+    <pictures>
+        <default pathversion="1">Wallpapers</default>
+        <source>
+            <name>Pictures</name>
+            <path pathversion="1">/home/javier/Pictures/</path>
+        </source>
+        <source>
+            <name>Wallpapers</name>
+            <path pathversion="1">/media/MyBook/Media/Wallpapers/</path>
+        </source>
+    </pictures>
+    <files>
+        <default pathversion="1"></default>
+    </files>
+</sources>
