@@ -11,4 +11,10 @@ UUID=2e8babcc-7b0d-41e5-9444-36b26883f9f7 /               ext4    errors=remount
 # swap was on /dev/sda5 during installation
 UUID=74953195-2d90-449a-917e-71afc5f028a3 none            swap    sw              0       0
 # mount MyBook at boot
-UUID=85f8218a-4ce5-40e4-9b54-421a457c7079 /media/MyBook ext4 auto,rw 0 0
+# old MyBook:
+# UUID=85f8218a-4ce5-40e4-9b54-421a457c7079 /media/MyBook ext4 auto,rw 0 0
+# new MyBook:
+UUID=5d59390a-2d4d-4f42-ae2f-22b34bb264d7 /media/MyBook ext4 auto,rw 0 0
+
+# tmpfs
+tmpfs   /tmp    tmpfs   defaults,noatime,mode=1777      0       0
