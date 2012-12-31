@@ -1,17 +1,39 @@
+# S/PDIF
 pcm.dmixer {
-   type dmix
-   ipc_key 1024
-   ipc_key_add_uid false
-   ipc_perm 0660
-   slave {
-      pcm "hw:0,3"               #HDMI, defaults to 48000 kHz
-      channels 2
-      period_size 1024
-      buffer_size 4096
-   }
+    type dmix
+    ipc_key 1024
+    slave {
+        pcm "hw:0,1"
+        period_time 0
+        period_size 1024
+        buffer_size 8192
+        rate 48000
+     }
+     bindings {
+        0 0
+        1 1
+     }
 }
 
-pcm.!default {
-   type plug
-   slave.pcm "dmixer"
-}
+# HDMI
+#pcm.dmixer {
+#   type dmix
+#   ipc_key 1024
+#   ipc_key_add_uid false
+#   ipc_perm 0660
+#   slave {
+#      # HDMI:
+#      # pcm "hw:0,3"
+#      # S/PDIF:
+#      pcm "hw:0,1"
+#      rate 48000
+#      channels 2
+#      period_size 1024
+#      buffer_size 4096
+#   }
+#}
+#
+#pcm.!default {
+#   type plug
+#   slave.pcm "dmixer"
+#}
