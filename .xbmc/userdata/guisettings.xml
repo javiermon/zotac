@@ -112,7 +112,7 @@
         </musicfiles>
     </viewstates>
     <general>
-        <systemtotaluptime>77116</systemtotaluptime>
+        <systemtotaluptime>77307</systemtotaluptime>
         <httpapibroadcastport>8278</httpapibroadcastport>
         <httpapibroadcastlevel>0</httpapibroadcastlevel>
         <addonautoupdate>true</addonautoupdate>
@@ -641,10 +641,10 @@
         <customdevice>plug:dmixer</customdevice>
         <custompassthrough>plughw:0,3</custompassthrough>
         <dontnormalizelevels>false</dontnormalizelevels>
-        <dtspassthrough>false</dtspassthrough>
-        <mode>2</mode>
+        <dtspassthrough>true</dtspassthrough>
+        <mode>1</mode>
         <passthroughaac>false</passthroughaac>
-        <passthroughdevice>alsa:hdmi</passthroughdevice>
+        <passthroughdevice>alsa:iec958</passthroughdevice>
         <passthroughmp1>false</passthroughmp1>
         <passthroughmp2>false</passthroughmp2>
         <passthroughmp3>false</passthroughmp3>
