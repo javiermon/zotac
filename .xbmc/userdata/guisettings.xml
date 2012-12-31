@@ -112,7 +112,7 @@
         </musicfiles>
     </viewstates>
     <general>
-        <systemtotaluptime>76214</systemtotaluptime>
+        <systemtotaluptime>77116</systemtotaluptime>
         <httpapibroadcastport>8278</httpapibroadcastport>
         <httpapibroadcastlevel>0</httpapibroadcastlevel>
         <addonautoupdate>true</addonautoupdate>
@@ -635,7 +635,7 @@
         <usecddb>true</usecddb>
     </audiocds>
     <audiooutput>
-        <ac3passthrough>false</ac3passthrough>
+        <ac3passthrough>true</ac3passthrough>
         <audiodevice>custom</audiodevice>
         <channellayout>1</channellayout>
         <customdevice>plug:dmixer</customdevice>
