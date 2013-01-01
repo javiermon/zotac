@@ -23,9 +23,7 @@ pcm.dmixer {
 #   ipc_perm 0660
 #   slave {
 #      # HDMI:
-#      # pcm "hw:0,3"
-#      # S/PDIF:
-#      pcm "hw:0,1"
+#      pcm "hw:0,3"
 #      rate 48000
 #      channels 2
 #      period_size 1024
