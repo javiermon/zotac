@@ -112,7 +112,7 @@
         </musicfiles>
     </viewstates>
     <general>
-        <systemtotaluptime>77816</systemtotaluptime>
+        <systemtotaluptime>77849</systemtotaluptime>
         <httpapibroadcastport>8278</httpapibroadcastport>
         <httpapibroadcastlevel>0</httpapibroadcastlevel>
         <addonautoupdate>true</addonautoupdate>
@@ -642,7 +642,7 @@
         <custompassthrough></custompassthrough>
         <dontnormalizelevels>true</dontnormalizelevels>
         <dtspassthrough>false</dtspassthrough>
-        <mode>2</mode>
+        <mode>1</mode>
         <passthroughaac>false</passthroughaac>
         <passthroughdevice>alsa:iec958</passthroughdevice>
         <passthroughmp1>false</passthroughmp1>
