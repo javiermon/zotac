@@ -112,7 +112,7 @@
         </musicfiles>
     </viewstates>
     <general>
-        <systemtotaluptime>77981</systemtotaluptime>
+        <systemtotaluptime>78224</systemtotaluptime>
         <httpapibroadcastport>8278</httpapibroadcastport>
         <httpapibroadcastlevel>0</httpapibroadcastlevel>
         <addonautoupdate>true</addonautoupdate>
@@ -638,8 +638,8 @@
         <ac3passthrough>true</ac3passthrough>
         <audiodevice>alsa:default</audiodevice>
         <channellayout>7</channellayout>
-        <customdevice>alsa:xbmc</customdevice>
-        <custompassthrough></custompassthrough>
+        <customdevice>plughw:0,3</customdevice>
+        <custompassthrough>plughw:0,3</custompassthrough>
         <dontnormalizelevels>true</dontnormalizelevels>
         <dtspassthrough>false</dtspassthrough>
         <mode>1</mode>
