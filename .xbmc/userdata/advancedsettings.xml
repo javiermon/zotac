@@ -1,0 +1,15 @@
+<advancedsettings>
+  <gui>
+    <algorithmdirtyregions>1</algorithmdirtyregions>
+    <nofliptimeout>0</nofliptimeout>
+  </gui>
+  <useddsfanart>true</useddsfanart>
+  <cputempcommand>cputemp</cputempcommand>
+  <gputempcommand>gputemp</gputempcommand>
+  <samba>
+    <clienttimeout>30</clienttimeout>
+  </samba>
+  <network>
+    <disableipv6>true</disableipv6>
+  </network>
+</advancedsettings>
