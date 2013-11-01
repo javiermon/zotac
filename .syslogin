@@ -15,5 +15,6 @@ memused=`free | sed -n 2p | awk '{print $3}'`
 memperc=`echo "scale=4; ($memused / $memtotal) * 100" | bc | cut -d. -f 1`
 echo -ne "  Memory usage:         $memperc%\n"
 echo -ne "  Users:               " `who | wc -l` "\n"
-echo -ne "  IP address for       " `ifconfig | sed -n 1p | awk '{print $1}'` "is" `ifconfig | grep "inet addr:" | sed -n 1p | awk '{print $2}' | cut -d: -f2`
+gateway=`route -n | grep 0.0.0.0 | sed -n 1p | awk '{print $8}'`
+echo -ne "  IP address for       " `ifconfig $gateway | sed -n 1p | awk '{print $1}'` "is" `ifconfig $gateway | grep "inet " | sed -n 1p | awk '{print $2}' | cut -d: -f2`
 echo -e "\n"
