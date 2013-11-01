@@ -1,20 +1,13 @@
-# /etc/fstab: static file system information.
-#
-# Use 'blkid' to print the universally unique identifier for a
-# device; this may be used with UUID= as a more robust way to name devices
-# that works even if disks are added and removed. See fstab(5).
-#
-# <file system> <mount point>   <type>  <options>       <dump>  <pass>
-proc            /proc           proc    nodev,noexec,nosuid 0       0
-# / was on /dev/sda1 during installation
-UUID=2e8babcc-7b0d-41e5-9444-36b26883f9f7 /               ext4    errors=remount-ro 0       1
-# swap was on /dev/sda5 during installation
-UUID=74953195-2d90-449a-917e-71afc5f028a3 none            swap    sw              0       0
-# mount MyBook at boot
-# old MyBook:
-# UUID=85f8218a-4ce5-40e4-9b54-421a457c7079 /media/MyBook ext4 auto,rw 0 0
-# new MyBook:
-UUID=5d59390a-2d4d-4f42-ae2f-22b34bb264d7 /media/MyBook ext4 auto,rw,nobootwait 0 0
 
-# tmpfs
-tmpfs   /tmp    tmpfs   defaults,noatime,mode=1777      0       0
+#
+# /etc/fstab
+# Created by anaconda on Fri Nov  1 16:12:31 2013
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+UUID=dcfcf9fa-1b2d-4baa-ae76-7dec8a00d06f /                       ext4    defaults        1 1
+UUID=886dee1f-4b25-4236-b5fd-cdf88b981870 /home                   ext4    defaults        1 2
+UUID=8352b9c5-feb6-457f-aee5-234c676715a3 swap                    swap    defaults        0 0
+# new MyBook:
+UUID=5d59390a-2d4d-4f42-ae2f-22b34bb264d7 /media/MyBook ext4 auto,rw,nofail 0 0
